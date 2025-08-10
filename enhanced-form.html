@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Guide</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Personalized Study Guide</h1>
+            <p>Use this guide to organize your study schedule, keep track of your classes, and access helpful resources.</p>
+        </header>
+        
+        <!--Personal information form-->
+        <h2 id="personal-details">Personal Details</h2>
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Fill Out Your Details</legend>
+                <label for="fullname">Full Name <span aria-hidden="true">*</span>
+                    <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required autocomplete="name">
+                </label>
+                <label for="email">Email Address <span aria-hidden="true">*</span>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required autocomplete="email">
+                </label>
+                <label for="studentid">Student ID
+                    <input type="text" id="studentid" name="studentid" placeholder="e.g. 123456">
+                </label>
+                <label for="dob">Date of Birth
+                    <input type="date" id="dob" name="dob" required>
+                </label>
+                <label for="gender">Gender
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+        </form>
+
+        <h2 id="study-timetable">Study Timetable</h2>
+        <table border="1">
+            <caption>Weekly Study Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Class</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Python</td>
+                    <td>9:00am - 10:30am</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Web Dev</td>
+                    <td>11:00am - 12:30pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Data Bases</td>
+                    <td>2:00pm - 3:30pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Startup Intro</td>
+                    <td>10:00am - 11:30am</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Intro to AI</td>
+                    <td>1:00pm - 2:30pm</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="class-media">Class Resources: Images &amp; Videos</h2>
+        <article>
+            <h3>Python</h3>
+            <figure>
+                <img src="https://www.pexels.com/photo/screen-with-code-10816120/" alt="Python Class" width="400" height="200">
+                <figcaption>Introduction to Python Programming</figcaption>
+            </figure>
+            <video width="400" height="300" controls>
+                <source src="https://www.youtube.com/watch?v=5Jazz4ph4i4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+        <article>
+            <h3>Web Development</h3>
+            <figure>
+                <img src="https://coder-coder.com/learn-web-development/" alt="Web Development Class" width="400" height="200">
+                <figcaption>Web Development Basics</figcaption>
+            </figure>
+            <video width="400" controls>
+                <source src="https://www.youtube.com/watch?v=5Jazz4ph4i4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+        <!-- Add more articles for other classes as needed -->
+        <h2 id="resources">Additional Resources</h2>
+        <ul>
+            <li><a href="https://www.codecademy.com/learn/learn-python-3">Codecademy: Learn Python 3</a></li>
+            <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">freeCodeCamp: Responsive Web Design</a></li>
+            <li><a href="https://www.khanacademy.org/computing/computer-programming">Khan Academy: Computer Programming</a></li>
+        </ul>
+
+        <footer>
+            <p>&copy; 2025 Created with ❤️</p>
+        </footer>
+    </main>
+</body>
+</html>
